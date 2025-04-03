@@ -24,18 +24,33 @@ export default {
           text: '快速开始',
           collapsed: false,
           items: [
-            { text: '搭建第一个AI助理', link: '/zh/tutorial/quick-start/build-a-bot/quickly-build-an-agent.md' },
-            { text: '快速搭建一个AI翻译助理', link: '/zh/tutorial/quick-start/build-AI-translation-assistant.' },
+            {
+              text: '创建AI助理',
+              collapsed: false,
+              items: [
+                { text: '关键概念', link: '/zh/tutorial/quick-start/build-a-bot/Key concepts.md' },
+                { text: '搭建第一个AI助理', link: '/zh/tutorial/quick-start/build-a-bot/quickly-build-an-agent' },
+                { text: '快速搭建一个AI翻译助理', link: '/zh/tutorial/quick-start/build-a-bot/quick-build-AI-translation-assistant' },
+               
+                { text: '工具',
+                  collapsed: false,
+                  items: 
+                  [
+                    { text: '创建工具',  link: '/zh/tutorial/quick-start/build-a-bot/tools/build-a-tool', },
+                  ] },
+              ]
+            },
+            {
+              text: '模型管理',
+              collapsed: false,
+              items: [
+                { text: '大模型管理', link: '/zh/tutorial/quick-start/manage-llm/llm' },
+              ]
+            },
            
           ]
         },
-        {
-          text: '创建AI助理',
-          collapsed: false,
-          items: [
-            { text: '创建一个工具', link: '/zh/tutorial/build-a-bot/tools/build-a-bot' },
-          ]
-        },
+        
         {
           text: '基础概念',
           collapsed: false,

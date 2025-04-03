@@ -59,8 +59,6 @@ def hello_world():
 ### 链接
 [链接到百度](https://www.baidu.com)
 
-### 图片
-![替代文本](/logo.png)
 
 ## 任务列表
 

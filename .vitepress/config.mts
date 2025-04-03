@@ -10,9 +10,9 @@ export default defineConfig({
     root: en,
     zh: zh
   },
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dtyq/magic' }
     ],
@@ -20,10 +20,7 @@ export default defineConfig({
       provider: 'local'
     },
     outline: {
-      level: [2, 3, 4], // 显示 h2-h4 标题
-      // 或者使用
-      // level: '2-4',   // 另一种写法
-      depth: 3          // 设置深度为 3
+      level: 'deep',
     }
   }
 }) 

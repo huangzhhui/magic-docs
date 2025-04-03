@@ -1,4 +1,5 @@
 node_modules
 .docusaurus
 .vitepress/cache
-
+scripts.py
+zh/tutorial/quick-start/manage-llm/static/img/
