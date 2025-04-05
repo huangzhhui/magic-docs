@@ -127,13 +127,15 @@ export default {
 
 
         },
-        // {
-        //   text: '最佳实践',
-        //   collapsed: false,
-        //   items: [
-        //     { text: '一句话实现复杂任务', link: '/zh/tutorial/best-practice/complex-tasks-in-one-sentence' },
-        //   ]
-        // }
+        {
+          text: '最佳实践',
+          collapsed: false,
+          items: [
+            { text: '一句话实现复杂任务', link: '/zh/tutorial/best-practice/complex-tasks-in-one-sentence' },
+            { text: '麦吉审批助理使用指南', link: '/zh/tutorial/best-practice/guide-to-using-the-magic-approval-assistant' },
+            { text: '搭建一个门店知识助理', link: '/zh/tutorial/best-practice/build-a-store-knowledge-assistant' },
+          ]
+        }
       ],
       '/zh/development/': [
         {
