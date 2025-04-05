@@ -14,14 +14,14 @@ hero:
       text: Development Guide
       link: /development/quick-start/quick-introduction.md
 
-features:
-  - icon: 🚀
-    title: Fast & Efficient
-    details: Built with performance in mind, Magic Docs provides lightning-fast documentation sites.
-  - icon: 🎨
-    title: Beautiful Design
-    details: Modern and clean design that works well on all devices.
-  - icon: 🔧
-    title: Easy to Use
-    details: Simple configuration and powerful features make it easy to create professional documentation.
---- 
+# features:
+#   - icon: 🚀
+#     title: Fast & Efficient
+#     details: Built with performance in mind, Magic Docs provides lightning-fast documentation sites.
+#   - icon: 🎨
+#     title: Beautiful Design
+#     details: Modern and clean design that works well on all devices.
+#   - icon: 🔧
+#     title: Easy to Use
+#     details: Simple configuration and powerful features make it easy to create professional documentation.
+# --- 

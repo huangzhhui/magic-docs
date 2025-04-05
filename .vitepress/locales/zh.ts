@@ -44,7 +44,7 @@ export default {
               text: '模型管理',
               collapsed: false,
               items: [
-                { text: '大模型管理', link: '/zh/tutorial/quick-start/manage-llm/llm' },
+                { text: '大模型管理', link: '/zh/tutorial/quick-start/manage-llm/llm2' },
               ]
             },
            
