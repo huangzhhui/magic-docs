@@ -1,5 +1,4 @@
 Prerequisites
-
 Node.js version 18 or higher.
 Terminal for accessing VitePress via its command line interface (CLI).
 Text Editor with Markdown syntax support.
