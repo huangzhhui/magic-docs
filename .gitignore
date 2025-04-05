@@ -3,3 +3,4 @@ node_modules
 .vitepress/cache
 scripts.py
 zh/tutorial/quick-start/manage-llm/static/img/
+.vitepress/dist

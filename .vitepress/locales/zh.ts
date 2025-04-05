@@ -127,49 +127,47 @@ export default {
 
 
         },
-        {
-          text: '最佳实践',
-          collapsed: false,
-          items: [
-            { text: '一句话实现复杂任务', link: '/zh/tutorial/best-practice/complex-tasks-in-one-sentence' },
-          ]
-        }
+        // {
+        //   text: '最佳实践',
+        //   collapsed: false,
+        //   items: [
+        //     { text: '一句话实现复杂任务', link: '/zh/tutorial/best-practice/complex-tasks-in-one-sentence' },
+        //   ]
+        // }
       ],
       '/zh/development/': [
         {
-          text: '开发指南',
+          text: '入门介绍',
           collapsed: false,
           items: [
-            { text: '入门', link: '/zh/development/quick-start/quick-introduction' },
-            { text: '基础信息', link: '/zh/development/quick-start/environment' },
-            { text: '项目结构', link: '/zh/development/quick-start/project-structure' },
+            { text: '入门介绍', link: '/zh/development/quick-start/quick-introduction' },
           ]
         },
         {
-          text: '快速安装',
+          text: '快速启动',
           collapsed: false,
           items: [
-            { text: 'docker-compose', link: '/zh/development/deploy/docker-compose' },
-            { text: '源代码', link: '/zh/development/core/message-system' },
-            { text: '环境变量说明', link: '/zh/development/core/storage-system' },
-            { text: '常见问题解答', link: '/zh/development/core/storage-system' },
+            { text: 'docker安装', link: '/zh/development/deploy/docker' },
           ]
         },
+
+        // {
+        //   text: '版本管理',
+        //   collapsed: false,
+        //   items: [
+        //     { text: '版本计划', link: '/zh/development/advanced/custom-node' },
+        //     { text: '版本说明', link: '/zh/development/advanced/plugin-development' },
+        //     { text: '版本更新记录', link: '/zh/development/advanced/performance' },
+        //   ]
+        // },
         {
-          text: '版本管理',
+          text: '配置说明',
           collapsed: false,
           items: [
-            { text: '版本计划', link: '/zh/development/advanced/custom-node' },
-            { text: '版本说明', link: '/zh/development/advanced/plugin-development' },
-            { text: '版本更新记录', link: '/zh/development/advanced/performance' },
-          ]
-        },
-        {
-          text: '贡献指南',
-          collapsed: false,
-          items: [
-            { text: '贡献指南', link: '/zh/development/advanced/custom-node' },
-            { text: '版本更新记录', link: '/zh/development/advanced/performance' },
+            // { text: '贡献指南', link: '/zh/development/advanced/CONTRIBUTING' },
+            { text: '初始化说明', link: '/zh/development/advanced/init' },
+            { text: '权限配置', link: '/zh/development/advanced/permission' },
+            { text: '文件驱动', link: '/zh/development/deploy/file-driver' },
           ]
         }
       ]

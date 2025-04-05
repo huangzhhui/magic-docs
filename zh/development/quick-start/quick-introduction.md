@@ -1,130 +1,88 @@
+# 🎩 Magic - 新一代企业级 AI 应用创新引擎
 
+<div align="center">
 
-## 项目介绍
-Mgic新一代企业级 AI 应用创新引擎,开源的企业级一体化 AI 平台，轻松构建和运营 AI 大模型原生应用。
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dtyq/magic)](https://goreportcard.com/report/github.com/dtyq/magic)
+[![Docker Pulls](https://img.shields.io/docker/pulls/dtyq/magic-service.svg)](https://hub.docker.com/r/dtyq/magic-service)
+[![GitHub stars](https://img.shields.io/github/stars/dtyq/magic.svg?style=social&label=Star)](https://github.com/dtyq/magic)
 
+</div>
 
-### 特征
+Magic 是一个强大的企业级 AI 应用创新引擎，旨在帮助开发者快速构建和部署 AI 应用。它提供了完整的开发框架、丰富的工具链和最佳实践，让 AI 应用的开发变得简单而高效。
 
-**智能AI助理**: 
+## ✨ 特性
 
-**IM即时通讯**: 
-1、零代码即可快速构建 AI 助理，赋能智能对话，提供精准、流畅的人机交互体验。
-2、支持多人对话，群组对话，群组使用AI助理等能力
+- 🚀 **高性能架构**：基于 PHP 语言开发，提供卓越的性能和可扩展性
+- 🧩 **模块化设计**：灵活的插件系统，支持快速扩展和定制
+- 🔌 **多模型支持**：无缝集成主流 AI 模型，包括 GPT、Claude、Gemini 等
+- 🛠️ **开发工具链**：完整的开发、测试、部署工具链
+- 🔒 **企业级安全**：完善的安全机制，支持多租户和权限管理
 
+## 🚀 快速开始
 
-**工作流**: 
-  在画布上构建和测试功能强大的 AI 工作流程，利用以下所有功能以及更多功能，`支持通过AI编排flow`
+### 系统要求
+- Docker 24.0+
+- Docker Compose 2.0+
 
+### 安装
 
-**多样的模型支持**: 
-  与数百种专有/开源 LLMs 以及数十种推理提供商和自托管解决方案无缝集成，涵盖 GPT、DeepSeek、Claude 以及任何与 OpenAI API 兼容的模型
+```bash
+# 克隆仓库
+git clone https://github.com/dtyq/magic.git
+cd magic
 
-**支持多模态模型**: 
-如语音、图片识别、画图、文生图等多模态模型的使用
-
-**知识库**: 
-内置丰富的知识库能力，支持从 PDF、PPT 和其他常见文档格式中提取文本的开箱即用的支持。
-
-**后端即服务**: 
-助理及知识库等功能，带有相应的API，因此您可以轻松地将 Magic 集成到自己的业务逻辑中。
-
-## 功能比较
-<table style="width: 100%;">
-  <tr>
-    <th align="center">功能</th>
-     <th align="center">Magic</th>
-    <th align="center">Dify.AI</th>
-    <th align="center">Coze</th>
-  </tr>
-  <tr>
-    <td align="center">开源</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-  </tr>
-  <tr>
-    <td align="center">支持的 LLMs</td>
-    <td align="center">丰富多样</td>
-    <td align="center">丰富多样</td>
-    <td align="center">丰富多样</td>
-  </tr>
-  <tr>
-    <td align="center">IM即时通讯</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">❌</td>
-  </tr>
-  <tr>
-    <td align="center">Agent</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td align="center">工作流</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td align="center">企业一站式解决方案</td>
-    <td align="center">✅</td>
-    <td align="center">❌</td>
-    <td align="center">✅</td>
-  </tr>
-</table>
-
-
-## 环境要求
-- PHP 8.3+
-- MySQL 8.0+
-- Redis 6.0+
-- RabbitMQ 3.12+
-
-## 服务组件
-- magic-service: API 服务
-- magic-web: Web 应用
-- MySQL: 数据库服务
-- Redis: 缓存服务
-- RabbitMQ: 消息队列服务
-- OpenSearch: 搜索引擎服务
-- OpenSearch Dashboards: 搜索可视化界面
-- Qdrant: 向量数据库服务
-
-
-## 目录结构
-```
-magic/
-├── bin/                 # 启动相关脚本
-├── service/               # API 服务
-├── web/                   # Web 应用
-├── docs/                   # 使用文档
-└── .env                   # 环境变量配置
-└── docker-compose.yaml # Docker Compose 配置
+# 启动服务
+./bin/magic.sh start
 ```
 
-## 开发说明
-- 后端服务开发请遵循 PSR 规范
-- 代码提交前请进行代码格式化
-- 建议使用 PHP-CS-Fixer 进行代码格式化
+### 使用 Docker
 
-## 注意事项
-1. 首次启动 OpenSearch 时，需要等待一段时间才能完全启动
-2. 所有服务的默认密码请在 .env 文件中修改
-3. 生产环境部署时请修改所有默认密码
+```bash
+# 前台启动服务
+./bin/magic.sh start
 
-## 常见问题
-1. 如果遇到权限问题，请确保 volumes 目录具有正确的读写权限
-2. 如果服务无法启动，请检查端口是否被占用
-3. 如果 OpenSearch 无法访问，请检查 SSL 证书配置
+# 后台启动服务
+./bin/magic.sh daemon
 
-## 贡献指南
-1. Fork 项目
-2. 创建特性分支
-3. 提交更改
-4. 推送到分支
-5. 创建 Pull Request
+# 查看服务状态
+./bin/magic.sh status
 
-## 许可证
-本仓库遵循 [ Apache 2.0 License](LICENSE) 开源协议，但有一些额外的限制。
+# 查看日志
+./bin/magic.sh logs
+```
+
+## 📚 文档
+
+详细的文档请访问 [Magic 文档中心](http://docs.letsmagic.cn/)。
+
+
+## 🤝 贡献
+
+我们欢迎各种形式的贡献，包括但不限于：
+
+- 提交问题和建议
+- 改进文档
+- 提交代码修复
+- 贡献新功能
+
+
+
+## 📄 许可证
+
+Magic 使用 [Apache License 2.0](LICENSE) 许可证。
+
+## 📞 联系我们
+
+- 邮箱：support@dtyq.com
+- 官网：https://www.dtyq.com
+
+## 🙏 致谢
+
+感谢所有为 Magic 做出贡献的开发者！
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=dtyq/magic&type=Date)](https://star-history.com/#dtyq/magic&Date)
+
+</div>

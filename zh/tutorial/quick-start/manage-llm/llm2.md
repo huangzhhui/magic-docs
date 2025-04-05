@@ -20,7 +20,7 @@
 ```
 </MagicCompressibleContent>
 
-## 二、配置微软 arzure服务商
+## 二、配置 微软 arzure服务商
 #### 2.1api地址
 [https://kobayashi-aoai-eastus2-prod.openai.azure.com](https://kobayashi-aoai-eastus2-prod.openai.azure.com)
 
