@@ -1,0 +1,1 @@
+- [首个开源一站式 AI 生产力平台「麦吉」发布上线！](./magic-open-source-publish.md)

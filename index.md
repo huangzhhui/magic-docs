@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Development Guide
       link: /development/quick-start/quick-introduction.md
+    - theme: alt
+      text: Insights
+      link: /insights/list.md
 
 # features:
 #   - icon: 🚀

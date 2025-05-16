@@ -13,16 +13,7 @@ hero:
     - theme: alt
       text: 开发文档
       link:  /zh/development/quick-start/quick-introduction.md
-
-# features:
-#   - icon: 🚀
-#     title: 快速高效
-#     details: 以性能为核心，Magic Docs提供闪电般快速的文档站点。
-#   - icon: 🎨
-#     title: 精美设计
-#     details: 现代简洁的设计，在所有设备上都能完美展示。
-#   - icon: 🔧
-#     title: 易于使用
-#     details: 简单的配置和强大的功能，让创建专业文档变得轻而易举。
----
+    - theme: alt
+      text: 洞见
+      link: /zh/insights/list.md
 

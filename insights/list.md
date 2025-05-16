@@ -1,0 +1,1 @@
+- [First Open-Source All-in-One AI Productivity Platform "Magic" Officially Released!](./magic-open-source-publish.md) 
